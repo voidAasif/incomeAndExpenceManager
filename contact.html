@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/128/4661/4661361.png" alt="Logo">
+        <nav>
+            <span class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="stock.html">Stock</a>
+                <a href="income.html">Income</a>
+                <a href="expense.html">Expense</a>
+                <a href="invoice.html">Invoice</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </span>
+            <img style="width: 25px; height: 25px;" onclick="togglesidebar()" src="https://cdn-icons-png.flaticon.com/128/14025/14025527.png" alt="hamburger">
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h2>Get in Touch with Us</h2>
+            <p>We're here to help. Reach out with any questions or inquiries.</p>
+        </section>
+
+        <section class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="#">example@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Tech Street, City, State, India</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-user-tie"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="mailto:andisoftwaresolutions@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Aasif | All Rights Reserved | <a style="color: red; text-decoration: none;" href="https://voidaasif.github.io/aasif/">Visit - Developer's Portfolio</a>
+    </footer>
+</body>
+</html>

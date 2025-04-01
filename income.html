@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/income.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/128/4661/4661361.png" alt="Logo">
+        <nav>
+            <span class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="stock.html">Stock</a>
+                <a href="income.html">Income</a>
+                <a href="expense.html">Expense</a>
+                <a href="invoice.html">Invoice</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </span>
+            <img style="width: 25px; height: 25px;" onclick="togglesidebar()" src="https://cdn-icons-png.flaticon.com/128/14025/14025527.png" alt="hamburger">
+        </nav>
+    </header>
+
+    <main>
+        <h2>Income Management</h2>
+        <div class="card">
+            <h3>Add Income</h3>
+            <input type="text" id="incomeCategory" placeholder="Category">
+            <input type="number" id="incomeAmount" placeholder="Amount">
+            <button onclick="addIncome()">Add Income</button>
+        </div>
+        <div class="card">
+            <h3>Income List</h3>
+            <ul id="incomeList"></ul>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Aasif | All Rights Reserved | <a style="color: red; text-decoration: none;" href="https://voidaasif.github.io/aasif/">Visit - Developer's Portfolio</a>
+    </footer>
+</body>
+</html>
